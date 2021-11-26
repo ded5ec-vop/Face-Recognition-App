@@ -76,7 +76,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('https://git.heroku.com/floating-hollows-63126.git/imageurl',{
+      fetch('https://floating-hollows-63126.herokuapp.com/imageurl',{
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -87,7 +87,7 @@ class App extends Component {
 
     .then(response => {
       if(response) {
-        fetch('https://git.heroku.com/floating-hollows-63126.git:3000/image',{
+        fetch('https://floating-hollows-63126.herokuapp.com:3000/image',{
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
