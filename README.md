@@ -1,14 +1,9 @@
 # First-React-App
 
 
-In the project directory, you can run:
+1.Clone this repo
+2. Run npm install
+3. Run npm start
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-
+You must add your own API key in the src/App.js file to connect to Clarifai.
+You can sign up and generate one for yourself from link: https://www.clarifai.com/
